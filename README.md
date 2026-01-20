@@ -2,6 +2,14 @@
 
 Issues: Found an inconsistency between oxfmt and oxlint: oxlint reads ignorePatterns relative to cwd, while oxfmt reads ignorePatterns relative to the configuration file.
 
+ignorePatterns config:
+
+```json
+{
+  "ignorePatterns": ["dist/**"]
+}
+```
+
 oxfmt:
 
 ```bash
